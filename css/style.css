@@ -1,0 +1,91 @@
+#main-page{
+  display:flex;
+  max-width: 372px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+#main-page > div{
+  width: 100%;
+  background-color: #30303b;
+  /*margin-bottom:1px;*/
+  display: flex;
+}
+
+img{
+  width: 75px;
+}
+
+
+
+#child1 {
+
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  background-color: white !important;
+}
+
+
+
+#child2{
+  display: flex;
+  flex:2;
+  flex-direction: column ;
+  background-color: white !important
+
+}
+
+.datos1{
+display: flex;
+flex-basis: 100%;
+flex-direction: row;
+align-items: center;
+
+}
+
+.datos1 div{
+  flex:1;
+}
+
+.datos1 input{
+  flex:3;
+  border: none;
+  border-bottom: 1px solid black;
+
+}
+
+input:focus{
+border:none;
+
+}
+
+#child3{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+
+
+}
+
+
+.contenedor-boton{
+  display: flex;
+  flex-basis: 100%;
+  /*text-align: center;*/
+  justify-content: center;
+
+}
+
+.contenedor-boton button{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  
+}
